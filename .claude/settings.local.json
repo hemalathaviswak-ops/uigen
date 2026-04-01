@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(git *)",
+      "Bash(node *)",
+      "mcp__playwright"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(npm run db:reset)"
+    ]
+  }
+}
